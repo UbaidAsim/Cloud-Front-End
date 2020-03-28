@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="738.255" height="432.121" viewBox="0 0 738.255 432.121">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a2a2a2;
+      }
+
+      .cls-2 {
+        fill: #f9f8f8;
+      }
+
+      .cls-3 {
+        fill: #f90;
+      }
+
+      .cls-4 {
+        filter: url(#Icon_ionic-ios-cloud-2);
+      }
+
+      .cls-5 {
+        filter: url(#Icon_ionic-ios-cloud);
+      }
+    </style>
+    <filter id="Icon_ionic-ios-cloud" x="92.743" y="13" width="645.512" height="419.121" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feFlood flood-color="#bab8b8" flood-opacity="0.541"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_ionic-ios-cloud-2" x="79.743" y="0" width="639.512" height="413.121" filterUnits="userSpaceOnUse">
+      <feOffset dx="-8" dy="-8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_8" data-name="Group 8" transform="translate(-1331.257 -151)">
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, 1331.26, 151)">
+      <path id="Icon_ionic-ios-cloud-3" data-name="Icon ionic-ios-cloud" class="cls-1" d="M515.124,164.434C505.578,75.81,430.625,6.75,339.409,6.75A176.524,176.524,0,0,0,193.982,83a83.537,83.537,0,0,0-31.7-6.246c-46.079,0-83.438,40.541-84.145,86.5C31.112,178.222,0,224.184,0,272.5c0,59.161,47.965,111.369,107.126,111.369h389.26c59.161,0,107.126-52.208,107.126-111.369C603.394,219.823,565.328,173.39,515.124,164.434Z" transform="translate(105.74 19.25)"/>
+    </g>
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 1331.26, 151)">
+      <path id="Icon_ionic-ios-cloud-4" data-name="Icon ionic-ios-cloud" class="cls-2" d="M515.124,164.434C505.578,75.81,430.625,6.75,339.409,6.75A176.524,176.524,0,0,0,193.982,83a83.537,83.537,0,0,0-31.7-6.246c-46.079,0-83.438,40.541-84.145,86.5C31.112,178.222,0,224.184,0,272.5c0,59.161,47.965,111.369,107.126,111.369h389.26c59.161,0,107.126-52.208,107.126-111.369C603.394,219.823,565.328,173.39,515.124,164.434Z" transform="translate(105.74 19.25)"/>
+    </g>
+    <path id="Icon_ionic-ios-cloud-5" data-name="Icon ionic-ios-cloud" class="cls-3" d="M59.716,112.015C66.166,52.853,116.805,6.75,178.432,6.75a119.674,119.674,0,0,1,98.253,50.9,57.031,57.031,0,0,1,21.418-4.17c31.132,0,56.372,27.064,56.85,57.746,31.769,9.992,52.789,40.674,52.789,72.93,0,39.494-32.406,74.347-72.376,74.347H72.376C32.406,258.505,0,223.653,0,184.159.08,148.992,25.8,117.994,59.716,112.015Z" transform="translate(1331.257 323.25)"/>
+    <path id="Icon_open-cloud-download" data-name="Icon open-cloud-download" class="cls-2" d="M139.716,153.878a11.811,11.811,0,0,0-8.032,11.811v35.434H96.25L143.5,248.37l47.246-47.246H155.307V165.69a11.811,11.811,0,0,0-13.938-11.811,11.808,11.808,0,0,0-1.417,0Z" transform="translate(1376.754 275.815)"/>
+  </g>
+</svg>

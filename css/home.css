@@ -1,0 +1,312 @@
+@import url(https://www.cufonfonts.com/download/font-single/24553/samsung-sharp-sans);
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+body{
+    background-color:#F9F8F8;
+}
+
+.brand.navbar-brand{
+    fill:#F9F8F8;
+    padding: 8px 8px;
+    margin-top: 26px;
+    margin-bottom: 15px;
+    width: 70px;
+    height:auto;
+    
+}
+.navbar-inverse{
+    background-color: #707070;
+    border-color: #707070;
+    
+}
+
+.navbarpad{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.navlist{
+    margin-top: 8px;
+    padding: 20px 0px 20px 50px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color:white;
+    font-size: 21px;
+    font-family: 'Samsung Sharp Sans Bold', sans-serif; 
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color:#ff9900;  
+}
+.navbar-inverse .navbar-nav>li>a:active{
+    color:#ff9900;  
+}
+
+
+.navLink{
+    margin-left: 20px;
+}
+
+.btn-nav{
+    background:#707070;
+    color:white;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    box-shadow: -2px -2px 2px rgba(255,255,255,0.15),3px 3px 2px rgba(0,0,0,0.3) ;
+    padding: 5px 15px 5px 15px;
+    margin-top: 35px;
+    margin-bottom: 28px;
+    float: right;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    
+     transition-property: all; 
+    transition-duration: 0.3s; 
+}
+
+.btn-nav:active{
+    color:white;
+    box-shadow: inset 3px 3px 3px rgba(0,0,0,0.3), inset -2px -2px 3px rgba(255,255,255,0.1);
+}
+.btn .btn-nav:default{
+    color:white;
+}
+.btn.btn-nav:hover{
+    transform: scale(0.95);
+    color: white;
+     box-shadow: inset 2px 2px 3px rgba(0,0,0,0.3),inset -3px -3px 2px rgba(255,255,255,0.05); 
+     transition-property: all; 
+    transition-duration: 0.3s; 
+}
+.btn.btn-nav:visited{
+    color: white;
+}
+
+
+.btn.btn-neo-white{
+    background:#F9F8F8;
+    color:#ff9900;  
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    box-shadow: -4px -4px 2px rgba(255,255,255,0.5),3px 3px 8px rgba(0,0,0,0.2) ;
+    padding: 4px 22px 4px 22px;
+    margin-top: 35px;
+    margin-bottom: 28px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 33px;
+    transition:all;
+    transition-property: all; 
+    transition-duration: 0.3s; 
+    
+
+     
+}
+
+.btn.btn-neo-white:hover{ 
+   transform: scale(0.95);
+   box-shadow: inset -3px -3px 5px rgba(255,255,255,0.8),inset 3px 3px 3px rgba(0,0,0,0.2) ; 
+  transition: all;
+  transition-property: all; 
+    transition-duration: 0.3s; 
+}
+
+
+
+.text-content-left{
+    display:flex;
+    margin-left: 2%;
+    margin-top: 6%;
+    
+}
+
+
+.text-content-left>.text-content{
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 2%;
+    width:50%;
+}
+
+.text-content-left>.clouds>img{
+    margin-top: auto;
+    float: right;
+    margin-right:0px;
+    height: 90%;
+    width: 90%;
+    transition:all;
+    transition-duration: 0.3s; 
+}
+
+.text-content-left>.clouds>img:hover{
+    transform:scale(1.03);
+    transition:all;
+    transition-duration: 0.3s; 
+}
+
+
+.text-content-left>.text-content>h1{
+    color:#707070;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    font-size: 48px;
+}
+
+.text-content-left>.text-content>p{
+    color:#707070;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+
+
+.text-content-right{
+    float:right;
+    display:flex;
+    margin-right: 2%;
+    margin-top: 13%;
+   
+}
+
+.text-content-right>.dataimg>img{
+    margin-top: auto;
+    float: left;
+    margin-left: 120px;
+    height: 80%;
+    width: 80%;
+    transition:all;
+    transition-duration: 0.3s; 
+}
+
+.text-content-right>.dataimg>img:hover{
+    transform:scale(1.03);
+    transition:all;
+    transition-duration: 0.3s; 
+}
+
+.text-content-right>.text-content{
+    display: inline-block;
+    text-align: right;
+    margin-right: 60px;
+    margin-left: 50px;
+    margin-top: 2%;
+    width:auto;
+}
+
+.text-content-right>.text-content>h1{
+    color:#707070;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    font-size: 48px;
+}
+
+.text-content-right>.text-content>p{
+    color:#707070;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.page-footer{
+    display: inline-block;
+    background: #707070;
+    border-radius: 20px;
+    margin-top: 10%;
+    padding: 2% 2% 0% 5%;
+    
+}
+
+.foot-content{
+   
+    display:inline;
+    width:50%;
+}
+
+.foot-content>h1{
+    font-size: 48;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    color:#ff9900;
+}
+
+.foot-content>h2{
+    float:right;
+    font-size: 48;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    color:#ff9900; 
+    margin-left: 2%;
+
+}
+
+.contact{
+    display: flex;
+    margin-top: 10px;
+}
+
+.btn-contact{
+    color: #F9F8F8;
+    background:#707070;
+    box-shadow: -2px -2px 2px rgba(255,255,255,0.15),3px 3px 2px rgba(0,0,0,0.3) ;
+    padding: 7px 5px 5px 8px;
+    margin: 5px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+
+    
+    
+}
+
+
+
+.contact>p{
+  color:white;
+  margin-top:10px;
+  margin-left: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+
+.socialicon>i{
+    padding-left: 2px;
+    color:#ff9900;  
+
+}
+
+.btn-contact.socialicon{
+    margin: 10px;
+    margin-bottom: 20px;
+    transition-property: all; 
+    transition-duration: 0.3s;
+}
+
+.btn-contact.socialicon:hover{
+    transform: scale(0.95);
+    box-shadow: inset 2px 2px 3px rgba(0,0,0,0.3),inset -3px -3px 2px rgba(255,255,255,0.05); 
+     transition-property: all; 
+    transition-duration: 0.3s;
+}
+
+
+
+
+
