@@ -137,30 +137,30 @@ body{
 
 .text-content-left{
     display:flex;
-    margin-left: 2%;
-    margin-top: 6%;
-    
+    justify-content: space-around;
+    padding: 5% 5% 0% 5%;
 }
 
 
 .text-content-left>.text-content{
-    display: inline-block;
-    margin-left: 60px;
-    margin-top: 2%;
-    width:50%;
+    text-align: left;
+    margin: auto 0;
 }
 
-.text-content-left>.clouds>img{
-    margin-top: auto;
+.text-content-left>.clouds{
     float: right;
-    margin-right:0px;
-    height: 90%;
-    width: 90%;
     transition:all;
-    transition-duration: 0.3s; 
+    transition-duration: 0.3s;     
 }
 
-.text-content-left>.clouds>img:hover{
+.clouds>img{
+    width: 500px;
+    height: auto;
+}
+
+
+
+.clouds:hover{
     transform:scale(1.03);
     transition:all;
     transition-duration: 0.3s; 
@@ -182,37 +182,37 @@ body{
 
 
 .text-content-right{
-    float:right;
     display:flex;
-    margin-right: 2%;
-    margin-top: 13%;
+    justify-content: space-around;
+    padding: 13% 5% 0% 5%;
+    
    
 }
 
-.text-content-right>.dataimg>img{
-    margin-top: auto;
-    float: left;
-    margin-left: 120px;
-    height: 80%;
-    width: 80%;
+.dataimg{
     transition:all;
     transition-duration: 0.3s; 
 }
 
-.text-content-right>.dataimg>img:hover{
+.dataimg>img{
+    width: 350px;
+    height: auto;
+}
+
+.dataimg:hover{
     transform:scale(1.03);
     transition:all;
     transition-duration: 0.3s; 
 }
 
 .text-content-right>.text-content{
-    display: inline-block;
+    float:right;
+    margin: auto 0;
+/*    margin-right: 2%;*/
     text-align: right;
-    margin-right: 60px;
-    margin-left: 50px;
-    margin-top: 2%;
-    width:auto;
+    
 }
+
 
 .text-content-right>.text-content>h1{
     color:#707070;
